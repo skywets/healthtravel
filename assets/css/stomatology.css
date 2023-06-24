@@ -1,0 +1,109 @@
+
+/* STOMATOLOGY */
+
+.services__img {
+
+}
+
+.why-lease {
+    padding: 150px 0;
+}
+
+.section-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.why-lease__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+
+.why-lease__item-img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.why-lease__item-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.why-lease__item-text {
+    text-align: left;
+}
+
+/* IMPLANATATION TOOTH */
+
+.teeth__info {
+   margin: 150px 0 50px 0;
+}
+
+.teeth__info-inner {
+    display: flex;
+}
+
+.teeth__info__img {
+    margin-right: 60px;
+    width: 570px;
+    object-fit: cover;
+}
+
+.teeth__info__list {
+    flex-basis: 490px;
+}
+
+.teeth__info__item + .teeth__info__item {
+    padding-top: 30px;
+}
+
+.teeth__info__item-title {
+    margin: 0 auto 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+/*.teeth__info__item-text {*/
+/*    max-width: 450px;*/
+/*}*/
+
+@media (max-width: 870px)  {
+    /*    Stomstology */
+    .why-lease__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        text-align: center;
+    }
+
+    .teeth__info-inner {
+        display: block;
+        justify-content: center;
+    }
+
+    .teeth__info__img {
+        width: 98%;
+    }
+
+}
+
+@media (max-width: 550px)  {
+    /*    Stomstology */
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .teeth__info__img {
+        width: 98%;
+    }
+
+}
